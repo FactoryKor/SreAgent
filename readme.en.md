@@ -1,4 +1,4 @@
-[한국어](#top) | **English**
+[한국어](readme.md) | **English**
 
 # Azure SRE Agent — Specification & Cost Structure Overview
 

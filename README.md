@@ -1,3 +1,7 @@
+<a id="top"></a>
+
+**한국어** | [English](#english)
+
 # Azure SRE Agent — 스펙 및 비용 구조 정리
 
 > 기준: Microsoft Learn 공식 문서(2026-07 기준). 최신 요율/모델/리전은 변경될 수 있으므로
@@ -5,7 +9,7 @@
 
 ---
 
-## 1. 요약 (TL;DR)
+## 1. 요약
 
 - **단일 에이전트가 수용 가능한 리소스 "최대 개수(AKS N대, PostgreSQL N대)"에 대한 공식 상한 수치는 문서에 명시되어 있지 않다.**
 - 에이전트가 커버하는 범위는 **개수 제한이 아니라 RBAC 스코프**(리소스 그룹 단위 또는 구독 단위)로 결정된다.
@@ -88,8 +92,7 @@
 
 ## 3. 비용 구조
 
-과금 단위: **AAU(Azure Agent Unit)** — 모든 프리빌트 Azure 에이전트에서 공통으로 쓰이는 표준 처리 측정 단위.
-월 청구는 아래 두 흐름의 합으로 구성됨.
+과금 단위: **AAU(Azure Agent Unit)** — 모든 프리빌트 Azure 에이전트에서 공통으로 쓰이는 표준 처리 측정 단위. 월 청구는 아래 두 흐름의 합으로 구성됨.
 
 ### 3.1 Always-on flow (고정 비용)
 
@@ -247,3 +250,8 @@
 - Security overview: https://learn.microsoft.com/en-us/azure/sre-agent/security-overview
 - Create agent: https://learn.microsoft.com/en-us/azure/sre-agent/create-agent
 - Pricing calculator: https://azure.microsoft.com/pricing/details/sre-agent/
+
+---
+---
+
+<a id="english"></a>

@@ -1,6 +1,4 @@
-<a id="top"></a>
-
-**한국어** | [English](#english)
+**한국어** | [English](readme.en.md)
 
 # Azure SRE Agent — 스펙 및 비용 구조 정리
 
@@ -253,5 +251,3 @@
 
 ---
 ---
-
-<a id="english"></a>

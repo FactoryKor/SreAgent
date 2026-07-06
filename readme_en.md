@@ -1,3 +1,5 @@
+[한국어](#top) | **English**
+
 # Azure SRE Agent — Specification & Cost Structure Overview
 
 > Basis: Microsoft Learn official documentation (as of 2026-07). Rates/models/regions are subject to change, so
@@ -5,7 +7,7 @@
 
 ---
 
-## 1. Summary (TL;DR)
+## 1. Summary
 
 - **There is no officially documented upper limit on the "maximum number of resources (N AKS clusters, N PostgreSQL instances)" a single agent can handle.**
 - An agent's coverage is determined **not by a count limit but by RBAC scope** (resource group level or subscription level).
